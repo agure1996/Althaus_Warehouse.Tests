@@ -1,0 +1,235 @@
+2024-10-31 01:56:33.907 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-31 01:56:33.949 +00:00 [DBG] Hosting starting
+2024-10-31 01:56:33.950 +00:00 [INF] User profile is available. Using 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-31 01:56:33.951 +00:00 [DBG] Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-5190e860-731c-4726-ad8e-5d88f09146d2.xml'.
+2024-10-31 01:56:33.951 +00:00 [DBG] Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-e7f50ac8-28f7-44db-b789-1ab7e54ad9c5.xml'.
+2024-10-31 01:56:33.952 +00:00 [DBG] Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-fbc25112-8dd9-4891-88c3-aae8a1dcfd8f.xml'.
+2024-10-31 01:56:33.952 +00:00 [DBG] Found key {5190e860-731c-4726-ad8e-5d88f09146d2}.
+2024-10-31 01:56:33.952 +00:00 [DBG] Found key {e7f50ac8-28f7-44db-b789-1ab7e54ad9c5}.
+2024-10-31 01:56:33.952 +00:00 [DBG] Found key {fbc25112-8dd9-4891-88c3-aae8a1dcfd8f}.
+2024-10-31 01:56:33.952 +00:00 [DBG] Considering key {5190e860-731c-4726-ad8e-5d88f09146d2} with expiration date 2024-12-31 09:02:58Z as default key.
+2024-10-31 01:56:33.953 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-31 01:56:33.953 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-31 01:56:33.954 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-31 01:56:33.954 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-31 01:56:33.954 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-31 01:56:33.955 +00:00 [DBG] Using key {5190e860-731c-4726-ad8e-5d88f09146d2} as the default key.
+2024-10-31 01:56:33.955 +00:00 [DBG] Key ring with default key {5190e860-731c-4726-ad8e-5d88f09146d2} was loaded during application startup.
+2024-10-31 01:56:33.971 +00:00 [DBG] Loaded hosting startup assembly Althaus_Warehouse
+2024-10-31 01:56:33.971 +00:00 [DBG] Hosting started
+2024-10-31 01:56:33.977 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/Employees/Delete/1 - null null
+2024-10-31 01:56:33.977 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-31 01:56:33.977 +00:00 [WRN] Failed to determine the https port for redirect.
+2024-10-31 01:56:33.977 +00:00 [DBG] The request path /Employees/Delete/1 does not match a supported file type
+2024-10-31 01:56:33.982 +00:00 [DBG] 1 candidate(s) found for the request path '/Employees/Delete/1'
+2024-10-31 01:56:33.982 +00:00 [DBG] Endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Delete (Althaus_Warehouse)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Employees/Delete/1'
+2024-10-31 01:56:33.982 +00:00 [DBG] Request matched endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Delete (Althaus_Warehouse)'
+2024-10-31 01:56:33.983 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-31 01:56:33.983 +00:00 [INF] Executing endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Delete (Althaus_Warehouse)'
+2024-10-31 01:56:33.994 +00:00 [INF] Route matched with {action = "Delete", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse).
+2024-10-31 01:56:33.994 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-31 01:56:33.994 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-31 01:56:33.994 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-10-31 01:56:33.995 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-31 01:56:33.995 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-31 01:56:33.995 +00:00 [DBG] Executing controller factory for controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse)
+2024-10-31 01:56:33.996 +00:00 [DBG] Executed controller factory for controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse)
+2024-10-31 01:56:33.996 +00:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-31 01:56:33.997 +00:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-31 01:56:33.997 +00:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-31 01:56:33.997 +00:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-31 01:56:33.997 +00:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-31 01:56:33.997 +00:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-31 01:56:34.199 +00:00 [DBG] Entity Framework Core 8.0.10 initialized 'WarehouseDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.23-mysql 
+2024-10-31 01:56:34.207 +00:00 [DBG] Creating DbConnection.
+2024-10-31 01:56:34.207 +00:00 [DBG] Created DbConnection. (0ms).
+2024-10-31 01:56:34.207 +00:00 [DBG] Opening connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.211 +00:00 [DBG] Opened connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.212 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-31 01:56:34.212 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-31 01:56:34.212 +00:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-31 01:56:34.212 +00:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`DateHired`, `e`.`Email`, `e`.`EmployeeType`, `e`.`FirstName`, `e`.`IsActive`, `e`.`LastName`, `e`.`PasswordHash`
+FROM `Employees` AS `e`
+WHERE `e`.`Id` = @__p_0
+LIMIT 1
+2024-10-31 01:56:34.219 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`DateHired`, `e`.`Email`, `e`.`EmployeeType`, `e`.`FirstName`, `e`.`IsActive`, `e`.`LastName`, `e`.`PasswordHash`
+FROM `Employees` AS `e`
+WHERE `e`.`Id` = @__p_0
+LIMIT 1
+2024-10-31 01:56:34.219 +00:00 [DBG] Context 'WarehouseDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-31 01:56:34.220 +00:00 [DBG] Closing data reader to 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.220 +00:00 [DBG] A data reader for 'WarehouseDb' on server 'localhost' is being disposed after spending 0ms reading results.
+2024-10-31 01:56:34.220 +00:00 [DBG] Closing connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.220 +00:00 [DBG] Closed connection to database 'WarehouseDb' on server 'localhost' (0ms).
+2024-10-31 01:56:34.221 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Create.cshtml'.
+2024-10-31 01:56:34.221 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Delete.cshtml'.
+2024-10-31 01:56:34.221 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Details.cshtml'.
+2024-10-31 01:56:34.221 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Edit.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Index.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/SearchEmployeeById.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Create.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Delete.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Details.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Index.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/SearchItemById.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Update.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Login/Index.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-10-31 01:56:34.222 +00:00 [DBG] View lookup cache miss for view 'Delete' in controller 'Employees'.
+2024-10-31 01:56:34.224 +00:00 [INF] Executing ViewResult, running view Delete.
+2024-10-31 01:56:34.224 +00:00 [DBG] The view path '/Views/Employees/Delete.cshtml' was found in 1.4298ms.
+2024-10-31 01:56:34.233 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] for address (action=[Delete],controller=[Employees])
+2024-10-31 01:56:34.233 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Employees/Delete/1 and 
+2024-10-31 01:56:34.233 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] with result /Employees/Delete/1
+2024-10-31 01:56:34.235 +00:00 [DBG] A new antiforgery cookie token was created.
+2024-10-31 01:56:34.247 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] for address (action=[Index],controller=[Employees])
+2024-10-31 01:56:34.247 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Employees and 
+2024-10-31 01:56:34.247 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] with result /Employees
+2024-10-31 01:56:34.248 +00:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Employees'.
+2024-10-31 01:56:34.253 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-10-31 01:56:34.253 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-10-31 01:56:34.253 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] with result /
+2024-10-31 01:56:34.253 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-10-31 01:56:34.254 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-10-31 01:56:34.254 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] with result /Home/Privacy
+2024-10-31 01:56:34.256 +00:00 [INF] Executed ViewResult - view Delete executed in 33.7782ms.
+2024-10-31 01:56:34.256 +00:00 [INF] Executed action Althaus_Warehouse.Controllers.EmployeesController.Delete (Althaus_Warehouse) in 261.4119ms
+2024-10-31 01:56:34.256 +00:00 [INF] Executed endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Delete (Althaus_Warehouse)'
+2024-10-31 01:56:34.257 +00:00 [DBG] 'WarehouseDbContext' disposed.
+2024-10-31 01:56:34.257 +00:00 [DBG] Disposing connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.257 +00:00 [DBG] Disposed connection to database 'WarehouseDb' on server 'localhost' (0ms).
+2024-10-31 01:56:34.257 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/Employees/Delete/1 - 200 null text/html; charset=utf-8 280.3375ms
+2024-10-31 01:56:34.260 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost/Employees/Delete/1 - null null
+2024-10-31 01:56:34.260 +00:00 [DBG] POST requests are not supported
+2024-10-31 01:56:34.264 +00:00 [DBG] 2 candidate(s) found for the request path '/Employees/Delete/1'
+2024-10-31 01:56:34.264 +00:00 [DBG] Endpoint 'Althaus_Warehouse.Controllers.EmployeesController.DeleteConfirmed (Althaus_Warehouse)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Employees/Delete/1'
+2024-10-31 01:56:34.264 +00:00 [DBG] Endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Delete (Althaus_Warehouse)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Employees/Delete/1'
+2024-10-31 01:56:34.264 +00:00 [DBG] Request matched endpoint 'Althaus_Warehouse.Controllers.EmployeesController.DeleteConfirmed (Althaus_Warehouse)'
+2024-10-31 01:56:34.264 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-31 01:56:34.265 +00:00 [INF] Executing endpoint 'Althaus_Warehouse.Controllers.EmployeesController.DeleteConfirmed (Althaus_Warehouse)'
+2024-10-31 01:56:34.271 +00:00 [INF] Route matched with {action = "Delete", controller = "Employees"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse).
+2024-10-31 01:56:34.271 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-31 01:56:34.271 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-31 01:56:34.271 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-10-31 01:56:34.271 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-31 01:56:34.271 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-10-31 01:56:34.271 +00:00 [DBG] Executing controller factory for controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse)
+2024-10-31 01:56:34.272 +00:00 [DBG] Executed controller factory for controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse)
+2024-10-31 01:56:34.272 +00:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-31 01:56:34.272 +00:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-31 01:56:34.272 +00:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-31 01:56:34.272 +00:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-31 01:56:34.272 +00:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-31 01:56:34.272 +00:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-31 01:56:34.284 +00:00 [DBG] Entity Framework Core 8.0.10 initialized 'WarehouseDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.23-mysql 
+2024-10-31 01:56:34.285 +00:00 [DBG] Creating DbConnection.
+2024-10-31 01:56:34.285 +00:00 [DBG] Created DbConnection. (0ms).
+2024-10-31 01:56:34.304 +00:00 [DBG] Opening connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.306 +00:00 [DBG] Opened connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.306 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-31 01:56:34.306 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-31 01:56:34.306 +00:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-31 01:56:34.306 +00:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`DateHired`, `e`.`Email`, `e`.`EmployeeType`, `e`.`FirstName`, `e`.`IsActive`, `e`.`LastName`, `e`.`PasswordHash`
+FROM `Employees` AS `e`
+WHERE `e`.`Id` = @__p_0
+LIMIT 1
+2024-10-31 01:56:34.317 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`DateHired`, `e`.`Email`, `e`.`EmployeeType`, `e`.`FirstName`, `e`.`IsActive`, `e`.`LastName`, `e`.`PasswordHash`
+FROM `Employees` AS `e`
+WHERE `e`.`Id` = @__p_0
+LIMIT 1
+2024-10-31 01:56:34.318 +00:00 [DBG] Context 'WarehouseDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-31 01:56:34.319 +00:00 [DBG] Closing data reader to 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.319 +00:00 [DBG] A data reader for 'WarehouseDb' on server 'localhost' is being disposed after spending 0ms reading results.
+2024-10-31 01:56:34.319 +00:00 [DBG] Closing connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.319 +00:00 [DBG] Closed connection to database 'WarehouseDb' on server 'localhost' (0ms).
+2024-10-31 01:56:34.349 +00:00 [DBG] An entity of type 'Employee' tracked by 'WarehouseDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-31 01:56:34.364 +00:00 [DBG] SaveChanges starting for 'WarehouseDbContext'.
+2024-10-31 01:56:34.370 +00:00 [DBG] DetectChanges starting for 'WarehouseDbContext'.
+2024-10-31 01:56:34.427 +00:00 [DBG] DetectChanges completed for 'WarehouseDbContext'.
+2024-10-31 01:56:34.522 +00:00 [DBG] Opening connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.523 +00:00 [DBG] Opened connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.527 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-31 01:56:34.527 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-31 01:56:34.527 +00:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-31 01:56:34.527 +00:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Employees`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT();
+2024-10-31 01:56:34.564 +00:00 [ERR] Failed executing DbCommand (36ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Employees`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT();
+2024-10-31 01:56:34.568 +00:00 [DBG] Closing connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.569 +00:00 [DBG] Closed connection to database 'WarehouseDb' on server 'localhost' (0ms).
+2024-10-31 01:56:34.584 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'Althaus_Warehouse.DBContext.WarehouseDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot delete or update a parent row: a foreign key constraint fails (`warehousedb`.`items`, CONSTRAINT `FK_Items_Employees_CreatedById` FOREIGN KEY (`CreatedById`) REFERENCES `employees` (`Id`))
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot delete or update a parent row: a foreign key constraint fails (`warehousedb`.`items`, CONSTRAINT `FK_Items_Employees_CreatedById` FOREIGN KEY (`CreatedById`) REFERENCES `employees` (`Id`))
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-31 01:56:34.591 +00:00 [DBG] View lookup cache miss for view 'Error' in controller 'Employees'.
+2024-10-31 01:56:34.592 +00:00 [INF] Executing ViewResult, running view Error.
+2024-10-31 01:56:34.592 +00:00 [DBG] The view path '/Views/Shared/Error.cshtml' was found in 1.2807ms.
+2024-10-31 01:56:34.597 +00:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Employees'.
+2024-10-31 01:56:34.598 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-10-31 01:56:34.598 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-10-31 01:56:34.599 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] with result /
+2024-10-31 01:56:34.599 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-10-31 01:56:34.599 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-10-31 01:56:34.599 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller = Employees}/{action=Index}/{id?}","Route: {controller = Items}/{action=Index}/{id?}"] with result /Home/Privacy
+2024-10-31 01:56:34.599 +00:00 [INF] Executed ViewResult - view Error executed in 8.6614ms.
+2024-10-31 01:56:34.599 +00:00 [INF] Executed action Althaus_Warehouse.Controllers.EmployeesController.DeleteConfirmed (Althaus_Warehouse) in 328.4311ms
+2024-10-31 01:56:34.600 +00:00 [INF] Executed endpoint 'Althaus_Warehouse.Controllers.EmployeesController.DeleteConfirmed (Althaus_Warehouse)'
+2024-10-31 01:56:34.600 +00:00 [DBG] 'WarehouseDbContext' disposed.
+2024-10-31 01:56:34.600 +00:00 [DBG] Disposing connection to database 'WarehouseDb' on server 'localhost'.
+2024-10-31 01:56:34.600 +00:00 [DBG] Disposed connection to database 'WarehouseDb' on server 'localhost' (0ms).
+2024-10-31 01:56:34.600 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost/Employees/Delete/1 - 200 null text/html; charset=utf-8 339.8782ms
