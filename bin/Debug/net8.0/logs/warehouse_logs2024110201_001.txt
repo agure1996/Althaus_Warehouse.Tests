@@ -1,0 +1,77 @@
+2024-11-02 01:15:48.627 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 01:15:48.671 +00:00 [DBG] Hosting starting
+2024-11-02 01:15:48.680 +00:00 [INF] User profile is available. Using 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-02 01:15:48.685 +00:00 [DBG] Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-5190e860-731c-4726-ad8e-5d88f09146d2.xml'.
+2024-11-02 01:15:48.686 +00:00 [DBG] Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-e7f50ac8-28f7-44db-b789-1ab7e54ad9c5.xml'.
+2024-11-02 01:15:48.686 +00:00 [DBG] Reading data from file 'C:\Users\dell\AppData\Local\ASP.NET\DataProtection-Keys\key-fbc25112-8dd9-4891-88c3-aae8a1dcfd8f.xml'.
+2024-11-02 01:15:48.686 +00:00 [DBG] Found key {5190e860-731c-4726-ad8e-5d88f09146d2}.
+2024-11-02 01:15:48.687 +00:00 [DBG] Found key {e7f50ac8-28f7-44db-b789-1ab7e54ad9c5}.
+2024-11-02 01:15:48.687 +00:00 [DBG] Found key {fbc25112-8dd9-4891-88c3-aae8a1dcfd8f}.
+2024-11-02 01:15:48.688 +00:00 [DBG] Considering key {5190e860-731c-4726-ad8e-5d88f09146d2} with expiration date 2024-12-31 09:02:58Z as default key.
+2024-11-02 01:15:48.688 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-02 01:15:48.689 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-11-02 01:15:48.690 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-02 01:15:48.691 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-11-02 01:15:48.691 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-11-02 01:15:48.691 +00:00 [DBG] Using key {5190e860-731c-4726-ad8e-5d88f09146d2} as the default key.
+2024-11-02 01:15:48.691 +00:00 [DBG] Key ring with default key {5190e860-731c-4726-ad8e-5d88f09146d2} was loaded during application startup.
+2024-11-02 01:15:48.714 +00:00 [DBG] Loaded hosting startup assembly Althaus_Warehouse
+2024-11-02 01:15:48.714 +00:00 [DBG] Hosting started
+2024-11-02 01:15:48.745 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/Employees/Create - null null
+2024-11-02 01:15:48.748 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 01:15:48.749 +00:00 [WRN] Failed to determine the https port for redirect.
+2024-11-02 01:15:48.750 +00:00 [DBG] The request path /Employees/Create does not match a supported file type
+2024-11-02 01:15:48.786 +00:00 [DBG] 3 candidate(s) found for the request path '/Employees/Create'
+2024-11-02 01:15:48.793 +00:00 [DBG] Endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Create (Althaus_Warehouse)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Employees/Create'
+2024-11-02 01:15:48.793 +00:00 [DBG] Endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Create (Althaus_Warehouse)' with route pattern '{controller=Employees}/{action=Index}/{id?}' is valid for the request path '/Employees/Create'
+2024-11-02 01:15:48.793 +00:00 [DBG] Endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Create (Althaus_Warehouse)' with route pattern '{controller=Items}/{action=Index}/{id?}' is valid for the request path '/Employees/Create'
+2024-11-02 01:15:48.793 +00:00 [DBG] Request matched endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Create (Althaus_Warehouse)'
+2024-11-02 01:15:48.824 +00:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-02 01:15:48.826 +00:00 [INF] Executing endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Create (Althaus_Warehouse)'
+2024-11-02 01:15:48.843 +00:00 [INF] Route matched with {action = "Create", controller = "Employees"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse).
+2024-11-02 01:15:48.844 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 01:15:48.845 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-02 01:15:48.850 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-11-02 01:15:48.851 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 01:15:48.851 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-11-02 01:15:48.852 +00:00 [DBG] Executing controller factory for controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse)
+2024-11-02 01:15:48.876 +00:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion'.
+2024-11-02 01:15:48.879 +00:00 [DBG] Executed controller factory for controller Althaus_Warehouse.Controllers.EmployeesController (Althaus_Warehouse)
+2024-11-02 01:15:48.963 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Create.cshtml'.
+2024-11-02 01:15:48.963 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Delete.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Details.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Edit.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/Index.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Employees/SearchEmployeeById.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Create.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Delete.cshtml'.
+2024-11-02 01:15:48.964 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Details.cshtml'.
+2024-11-02 01:15:48.965 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Index.cshtml'.
+2024-11-02 01:15:48.965 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/SearchItemById.cshtml'.
+2024-11-02 01:15:48.965 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Items/Update.cshtml'.
+2024-11-02 01:15:48.965 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Login/Index.cshtml'.
+2024-11-02 01:15:48.966 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-11-02 01:15:48.966 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-11-02 01:15:48.966 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-11-02 01:15:48.966 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-11-02 01:15:48.966 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-11-02 01:15:48.980 +00:00 [DBG] View lookup cache miss for view 'Create' in controller 'Employees'.
+2024-11-02 01:15:48.993 +00:00 [INF] Executing ViewResult, running view Create.
+2024-11-02 01:15:49.002 +00:00 [DBG] The view path '/Views/Employees/Create.cshtml' was found in 16.6178ms.
+2024-11-02 01:15:49.129 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller=Employees}/{action=Index}/{id?}","Route: {controller=Items}/{action=Index}/{id?}"] for address (action=[Create],controller=[Employees])
+2024-11-02 01:15:49.134 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Employees/Create and 
+2024-11-02 01:15:49.136 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller=Employees}/{action=Index}/{id?}","Route: {controller=Items}/{action=Index}/{id?}"] with result /Employees/Create
+2024-11-02 01:15:49.146 +00:00 [DBG] A new antiforgery cookie token was created.
+2024-11-02 01:15:49.224 +00:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Employees'.
+2024-11-02 01:15:49.246 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller=Employees}/{action=Index}/{id?}","Route: {controller=Items}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-11-02 01:15:49.247 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-11-02 01:15:49.247 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller=Employees}/{action=Index}/{id?}","Route: {controller=Items}/{action=Index}/{id?}"] with result /
+2024-11-02 01:15:49.248 +00:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller=Employees}/{action=Index}/{id?}","Route: {controller=Items}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-11-02 01:15:49.248 +00:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-11-02 01:15:49.249 +00:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}","Route: Auth/{controller=Login}/{action=Index}/{id?}","Route: {controller=Employees}/{action=Index}/{id?}","Route: {controller=Items}/{action=Index}/{id?}"] with result /Home/Privacy
+2024-11-02 01:15:49.275 +00:00 [INF] Executed ViewResult - view Create executed in 298.2338ms.
+2024-11-02 01:15:49.275 +00:00 [INF] Executed action Althaus_Warehouse.Controllers.EmployeesController.Create (Althaus_Warehouse) in 424.4546ms
+2024-11-02 01:15:49.276 +00:00 [INF] Executed endpoint 'Althaus_Warehouse.Controllers.EmployeesController.Create (Althaus_Warehouse)'
+2024-11-02 01:15:49.281 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/Employees/Create - 200 null text/html; charset=utf-8 537.5243ms
