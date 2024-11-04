@@ -6,20 +6,21 @@ using Althaus_Warehouse.Services;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Althaus_Warehouse.Models.DTO.EmployeeDTOs;
+using Althaus_Warehouse.Services.Repositories;
 
 namespace Althaus_Warehouse.Tests.Controllers
 {
     [TestClass]
-    public class EmployeeControllerIntegrationTests
+    public class EmployeesControllerIntegrationTests
     {
         private readonly HttpClient _client;
         private readonly WebApplicationFactory<Program> _factory;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="EmployeeControllerIntegrationTests"/> class.
+        /// Initializes a new instance of the <see cref="EmployeesControllerIntegrationTests"/> class.
         /// This constructor sets up the <see cref="WebApplicationFactory{T}"/> and <see cref="HttpClient"/>.
         /// </summary>
-        public EmployeeControllerIntegrationTests()
+        public EmployeesControllerIntegrationTests()
         {
             _factory = new WebApplicationFactory<Program>();
             _client = _factory.CreateClient();
@@ -72,7 +73,7 @@ namespace Althaus_Warehouse.Tests.Controllers
             mockEmployeeService.Setup(service => service.GetEmployeeByIdAsync(dummyEmployeeId))
                                .ReturnsAsync(new Employee { Id = dummyEmployeeId, FirstName = "Jane", LastName = "Doe" });
 
-            // Seting up controller with the mocked service
+            // Setting up controller with the mocked service
             var controller = new EmployeesController(mockEmployeeService.Object);
 
             // Act: Calling the DeleteConfirmed action to delete the employee
@@ -107,7 +108,7 @@ namespace Althaus_Warehouse.Tests.Controllers
                                .ReturnsAsync(expectedEmployee);
 
             // Controller
-            var controller = new EmployeesController(mockEmployeeService.Object);
+            var controller = new EmployeesController((mockEmployeeService.Object));
 
             // Act: Call the GetEmployeeById action
             var response = await controller.GetEmployeeById(validId);

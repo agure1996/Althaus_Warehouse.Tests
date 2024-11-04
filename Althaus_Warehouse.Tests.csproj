@@ -21,9 +21,6 @@
 	<ItemGroup>
 		<ProjectReference Include="..\Althaus_Warehouse\Althaus_Warehouse.csproj" Name="Althaus_Warehouse" OutputItemType="ProjectReference" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Controllers\EmployeeController %28API Controller%29\" />
-	</ItemGroup>
 
 
 </Project>
